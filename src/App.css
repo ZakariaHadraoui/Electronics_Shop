@@ -1,0 +1,59 @@
+/* h1{
+    text-align: center;
+    font-family: 'arial';
+   
+    
+}
+h1::selection{
+    background-color: rgb(255, 0, 251);
+    color: white;
+}
+textarea{
+    width: 800px;
+    text-align: center;
+    margin: 30px auto;
+    border: 3px solid black;
+    height: 50vh;
+    font-weight: 700;
+}
+button{
+    margin: 10px;
+    background-color: coral;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+ */
+ .card{
+    transition: all .4s ease-out;
+    font-weight: 700;
+    
+
+ }
+ .card h2{
+    color: navy;
+ }
+ 
+ .card:hover{
+    background-color: #eee;
+    cursor: pointer;
+    transform: scale(1.1);
+
+    
+ }
+
+ button{
+    border: none;
+    background-color: #F0F0F0;
+    padding: 8px;
+    transition: all .4s ease-in;
+    max-width: 200px;
+ }
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
